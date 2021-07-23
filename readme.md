@@ -15,5 +15,10 @@ python3 -m venv venv
 pip install requirements.txt
 ```
 
+# .envの作成
+```sudo vi .env```で.envを開き、以下を追記して保存
+DB_PATH='<接続用のDB_PATH>'
+
+
 # 実行
 python main/run.py "検索したいキーワード"
